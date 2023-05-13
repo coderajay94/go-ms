@@ -1,0 +1,8 @@
+3 ways you can run go file
+way 1 : go run main.go will start the main function;
+way 2 : do go build -o ms.exe | this would create ms.exe file which you can run ./ms.exe
+        if you'll do | go build main.go - it will generate main.exe file in same directory;
+way 3 : go install  | it will create go-ms.exe in GOBIN location; GOPATH/bin directory;
+
+-----------------
+
